@@ -1,3 +1,3 @@
 """ The main.py file. """
 
-print("Hello world.")
+print("Hello world!")
