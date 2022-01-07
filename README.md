@@ -1,5 +1,5 @@
 # ord-leech
-A leech to download and extract reaction data directly from the official ord-data repository.
+A project to download and extract reaction data directly from the official ord-data repository.
 
 ## Git LFS:
 Because the ord-data repository handles large data files, it requires the usage of [Git LFS](https://git-lfs.github.com/). 
