@@ -7,6 +7,6 @@ Thus, in order for this project to work, before cloning anything, you need to ha
 You can follow the installation guidelines [here](https://github.com/git-lfs/git-lfs/wiki/Installation).
 
 ## Cloning the Repo:
-You can clone the repo using the following command:
-
-`git lfs clone --recurse-submodules https://github.com/hasic-haris/ord-leech.git`
+Step 1: Clone the repository. Update the submodules. Install the environment file. Install the ord-schema requirements.
+Step 2: LFS clone the ord-data repository.
+Step 3: Run the program.
