@@ -5,7 +5,7 @@ Affiliations:
     PhD Student @ Ishida Laboratory, Department of Computer Science, School of Computing, Tokyo Institute of Technology
     Research Engineer @ Elix Inc.
 Updated on:
-    January 21st, 2022
+    January, 2022
 """
 
 from argparse import Namespace
