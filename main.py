@@ -17,12 +17,6 @@ from utils.dataset_utils import get_dataset_metadata, get_dataset_contents
 def main(args: Namespace = None) -> None:
     """ The main function of the project. """
 
-    args.input_directory_path = "/data/hhasic/open_reaction_database/ord-data/data/"
-    args.output_directory_path = "/data/hhasic/open_reaction_database/"
-    args.extract_dataset_metadata = False
-    args.merge_datasets = True
-    args.num_cores = 10
-
     if args.extract_dataset_metadata:
         get_dataset_metadata(
             data_directory_path=args.input_directory_path,
