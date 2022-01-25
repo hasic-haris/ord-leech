@@ -26,7 +26,7 @@ def parse_arguments(argument_parser_description: str = None) -> Namespace:
     )
 
     argument_parser.add_argument(
-        "-metadata",
+        "-meta",
         "--extract-dataset-metadata",
         action="store_true",
         help="The flag to indicate the extraction of the metadata instead of the contents of all available datasets "
@@ -46,7 +46,7 @@ def parse_arguments(argument_parser_description: str = None) -> Namespace:
         "--num-cores",
         type=int,
         default=1,
-        help="Number of CPU cores used for database processing. Default value is '1'.",
+        help="The number of CPU cores used for database processing. Default value is '1'.",
     )
 
     return argument_parser.parse_args()
